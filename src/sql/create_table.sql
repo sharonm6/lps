@@ -21,6 +21,8 @@ CREATE TABLE contacts (
     ds_checkout DATE,
     n_guests INT NOT NULL,
     n_messages INT NOT NULL,
+    time_to_reply INT NOT NULL,
+    time_to_book INT NOT NULL,
     PRIMARY KEY (id_guest, id_host)
 );
 
